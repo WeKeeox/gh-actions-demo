@@ -5,12 +5,11 @@ metadata:
   labels:
     app: webapp
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 80
     targetPort: 3000
     protocol: TCP
     name: http
-    nodePort: 30080
   selector:
     app: webapp
