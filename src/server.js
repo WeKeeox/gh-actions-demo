@@ -13,7 +13,7 @@ app.get('/ready', readinessCheck);
 
 // API-Endpunkte
 app.get('/', (req, res) => {
-  res.json({
+  res.status(500).json({
     message: 'GitHub Actions CI/CD Demo',
     version: process.env.npm_package_version || '1.0.0',
     timestamp: new Date().toISOString()
