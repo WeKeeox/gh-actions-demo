@@ -34,7 +34,8 @@ app.get('/api/items', (req, res) => {
   const items = [
     { id: 1, name: 'CI Pipeline', status: 'active' },
     { id: 2, name: 'CD Pipeline', status: 'active' },
-    { id: 3, name: 'Security Scan', status: 'active' }
+    { id: 3, name: 'Security Scan', status: 'active' },
+    { id: 4, name: 'Deployment', status: 'active' }
   ];
   res.json({ items });
 });
