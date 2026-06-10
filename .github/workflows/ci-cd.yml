@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: weekeeox/gh-actions-demo
+  IMAGE_NAME: wekeeox/gh-actions-demo
 
 jobs:
   # Job 1: Build und Test
