@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: weekeeox/gh-actions-demo
 
 jobs:
   # Job 1: Build und Test
