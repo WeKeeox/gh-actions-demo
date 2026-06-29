@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     version: process.env.npm_package_version || '1.0.0',
     timestamp: new Date().toISOString()
   });
-});
+});  
 
 app.get('/api/info', (req, res) => {
   res.json({
