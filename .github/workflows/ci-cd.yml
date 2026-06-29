@@ -133,7 +133,7 @@ jobs:
         uses: google-github-actions/get-gke-credentials@v2
         with:
           cluster_name: demo-cluster
-          location: europe-west1
+          location: europe-central2
 
       - name: Deploy to GKE
         run: |
