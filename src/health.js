@@ -21,6 +21,7 @@ function healthCheck(req, res) {
 }
 
 
+
 /**
  * Readiness Probe: Prüft, ob die Anwendung bereit ist, Traffic zu empfangen.
  */
