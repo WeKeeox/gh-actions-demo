@@ -31,7 +31,7 @@ describe('API Endpoints', () => {
       expect(response.status).toBe(200);
       expect(response.body).toHaveProperty('items');
       expect(Array.isArray(response.body.items)).toBe(true);
-      expect(response.body.items.length).toBe(3);
+      expect(response.body.items.length).toBe(4);
     });
 
     it('sollte Items mit korrekter Struktur enthalten', async () => {
